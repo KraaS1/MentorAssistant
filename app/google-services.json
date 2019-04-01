@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "192694920131",
+    "firebase_url": "https://mentor-assistant.firebaseio.com",
+    "project_id": "mentor-assistant",
+    "storage_bucket": "mentor-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192694920131:android:43c5f063e53163b8",
+        "android_client_info": {
+          "package_name": "com.example.kraas1.mentorassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192694920131-4ao4visvqtq3hu9j315li79o01496hph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kraas1.mentorassistant",
+            "certificate_hash": "c6cb6bfeef83b2aea5ea2e47b628267fb5e5809d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ1kj7xlZ_ousoHIYr6trXQ7MEZ_joVu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192694920131-auimd4nnkubvuo5mjpefrg864hco14el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192694920131:android:f522c2a2a3f34fe1",
+        "android_client_info": {
+          "package_name": "com.example.mentorassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192694920131-jsfknfqas1hjg9tc6f197uddlgraacv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentorassistant",
+            "certificate_hash": "cff4a6d30d5f03527f6fce40508409f7d2f1a88d"
+          }
+        },
+        {
+          "client_id": "192694920131-2f1e9mt0gnegp2t4uqm7mf413ufs7o1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentorassistant",
+            "certificate_hash": "c6cb6bfeef83b2aea5ea2e47b628267fb5e5809d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ1kj7xlZ_ousoHIYr6trXQ7MEZ_joVu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192694920131-auimd4nnkubvuo5mjpefrg864hco14el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
