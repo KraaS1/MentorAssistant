@@ -83,7 +83,7 @@ public class SetupActivity extends AppCompatActivity {
             userMap.put("username", username);
             userMap.put("phone", phone);
             userMap.put("city", city);
-            userMap.put("gender", institution);
+            userMap.put("institution", institution);
 
 
             profileUserRef.updateChildren(userMap).addOnCompleteListener(new OnCompleteListener() {
