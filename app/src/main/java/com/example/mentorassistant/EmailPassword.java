@@ -115,9 +115,9 @@ public class EmailPassword extends AppCompatActivity implements View.OnClickList
                 if (task.isSuccessful()) {
                     task.getResult().getUser();
                     startActivity(new Intent(EmailPassword.this, MainActivity.class));
-                    Toast.makeText(EmailPassword.this, "Aвторизация успешна", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EmailPassword.this, "Авторизация  успешна", Toast.LENGTH_SHORT).show();
                 } else
-                    Toast.makeText(EmailPassword.this, "Aвторизация провалена", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EmailPassword.this, "Авторизация  провалена, проверьте ваши данные", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -131,7 +131,7 @@ public class EmailPassword extends AppCompatActivity implements View.OnClickList
                     startActivity(new Intent(EmailPassword.this, SetupActivity.class));
                     Toast.makeText(EmailPassword.this, "Регистрация успешна", Toast.LENGTH_SHORT).show();
                 } else
-                    Toast.makeText(EmailPassword.this, "Регистрация провалена", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EmailPassword.this, "Регистрация провалена, данная электронная почта уже используется", Toast.LENGTH_SHORT).show();
             }
         });
     }
