@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User_Profile">
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Имя пользователя "
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Номер телефона"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumber"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Город"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/institution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Учреждение"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
